@@ -1,0 +1,37 @@
+$banners: (
+  expressao: (
+    banner-bg-color: white,
+    title-bg-color: #dcf4dd,
+    image-bg-color: #e4e4e4,
+    link-pip-color: #518a51
+  ),
+
+  faq: (
+    banner-bg-color: #9bdbbf,
+    title-bg-color: #ffb449,
+    image-bg-color: #069578,
+    link-pip-color: #fdb449
+  ),
+
+  wikilegis: (
+    banner-bg-color: #abe6b1,
+    title-bg-color: #dcf4dd,
+    image-bg-color: #3c6a5c,
+    link-pip-color: #00caa2
+  ),
+
+  calculator: (
+    banner-bg-color: #e3e5c5,
+    title-bg-color: #ffc558,
+    image-bg-color: #ffd962,
+    link-pip-color: #fbb959
+  ),
+);
+
+@mixin bannerVariable($cssAttribute, $mapKey) {
+  @each $name, $attributes in $banners {
+    .banner-wrapper.#{$name} & {
+      #{$cssAttribute}: map-get($attributes, $mapKey);
+    }
+  }
+}
