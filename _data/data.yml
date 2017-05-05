@@ -1,35 +1,39 @@
 - class: expressao
-  title: Faça uma pergunta
-  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, repudiandae.
+  title: Fale com o Relator
+  text: Descreva no fórum a sua situação pessoal para que o Relator da Reforma da Previdência, Dep. Arthur Oliveira Maia (PPS/BA) possa explicar para você como as novas regras se aplicarão ao seu caso.
   image_name: logo-expressao.svg
   links:
-    - link_text: Nome do topico
-      link_url: http://www.pudim.com.br
-    - link_text: Outro tópico no expressao
-      link_url: http://www.pudim.com.br
+    - link_text: Participe no dia 8/5, às 15h. As 100 primeiras postagens serão respondidas pelo Relator da Reforma da Previdência.
+      link_url: \#
 
 - class: faq
   title: Tire suas dúvidas
-  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, repudiandae.
+  text: Reunimos aqui as respostas para as dúvidas mais comuns a respeito da Reforma da Previdência. Navegue pelos temas e fique por dentro das principais alterações propostas
   image_name: logo-faq.png
   links:
-    - link_text: Veja as perguntas frequentes
-      link_url: http://www.pudim.com.br
-    - link_text: Simule a sua aposentadoria
-      link_url: http://www.pudim.com.br
-
-- class: wikilegis
-  title: Opine no Projeto de Lei
-  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, repudiandae.
-  image_name: logo-wikilegis.svg
-  links:
-    - link_text: Fazer sugestões
-      link_url: http://www.pudim.com.br
+    - link_text: Perguntas e Respostas
+      link_url: /previdencia/faq/
+    - link_text: Calcule a sua aposentadoria
+      link_url: \#
 
 - class: audiencias
-  title: Faça uma pergunta
-  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, repudiandae.
+  title: Opiniões e Debates
+  text: >
+    A Câmara dos Deputados realiza audiências públicas com especialistas para instruir o debate sobre os mais importantes temas nacionais. Confira a seguir o que foi discutido sobre a Reforma da Previdência:
   image_name: logo-audiencias.svg
   links:
-    - link_text: Audiencia 1
-      link_url: http://www.pudim.com.br
+    - link_text: Discussão do Regime Próprio dos Servidores Públicos com representantes da ANFIP, DIEESE, OAB e Sindicatos
+      link_url: \#
+    - link_text: Propostas de mudanças no Benefício de Prestação Continuada (BPC), especialmente para idosos e pessoas com deficiência.
+      link_url: \#
+
+- class: wikilegis
+  title: Sugira mudanças na PEC 287/2016
+  text: >
+    No portal e-Democracia você pode utilizar o Wikilegis para sugerir redações alternativas aos artigos das proposições legislativas. Confira as principais sugestões apresentadas à PEC 287/2016 - Reforma da Previdência:
+  image_name: logo-wikilegis.svg
+  links:
+    - link_text: Wikilegis - PEC 287/2016 - texto aprovado na Comissão Especial (aberto para participação)
+      link_url: \#
+    - link_text: Wikilegis - PEC 287/2016 - relatório apresentado em 05/05/20017 (encerrado para participação)
+      link_url: \#
