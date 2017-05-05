@@ -1,22 +1,33 @@
 .content {
   display: flex;
   flex-direction: column;
-  margin: 0.5em 0;
 }
 
 .main-banner {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   padding: 2em 1em;
   background-color: #ffd853;
+  background: radial-gradient(circle at left 50% top 30%, #ffdc70 50%, #ffd853 0);
+
+  @media screen and (min-width: 860px) {
+    flex-direction: row;
+    background-color: #ffd853;
+    background: radial-gradient(circle at left 30vw top 50%, #ffdc70 35%, #ffd853 0);
+  }
 }
 
 .main-banner__text {
   font-weight: 700;
   font-size: 1.2em;
   color: #474747;
-  max-width: 34em;
   margin: 0;
+
+  @media screen and (min-width: 860px) {
+    font-size: 1.4em;
+  }
 }
 
 .main-banner__content {
@@ -24,6 +35,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 738px;
 }
 
 .main-banner__title {
@@ -45,7 +57,7 @@
 }
 
 .banner-container {
-  margin: 0.5em 0;
+  margin-top: 1em;
   @include bannerVariable('background-color', 'banner-bg-color');
 }
 
@@ -76,6 +88,7 @@
     flex: 1 0 12em;
     margin: 0 1em;
     min-height: 15em;
+    align-self: stretch;
   }
 }
 
@@ -113,6 +126,7 @@
   text-decoration: none;
   font-weight: 700;
   font-size: 1.2em;
+  margin-bottom: 0.5em;
   display: flex;
   align-items: center;
 }
