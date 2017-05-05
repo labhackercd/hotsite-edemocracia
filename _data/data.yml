@@ -25,3 +25,11 @@
   links:
     - link_text: Fazer sugestões
       link_url: http://www.pudim.com.br
+
+- class: audiencias
+  title: Faça uma pergunta
+  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, repudiandae.
+  image_name: logo-audiencias.svg
+  links:
+    - link_text: Audiencia 1
+      link_url: http://www.pudim.com.br
