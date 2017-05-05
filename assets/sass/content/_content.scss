@@ -3,6 +3,30 @@
   flex-direction: column;
 }
 
+.edem-logo {
+  height: 2.5em;
+}
+
+.edem-logo-text {
+  height: 1.5em;
+  margin-left: 12px;
+}
+
+.edem-bar {
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #0d2625 0%, #134836 100%);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 1px 4px rgba(0, 0, 0, 0.23);
+  position: relative;
+}
+
+.edem-logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .main-banner {
   display: flex;
   justify-content: center;
