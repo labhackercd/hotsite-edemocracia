@@ -163,3 +163,64 @@
 .banner__content {
   margin: 1em;
 }
+
+.footer {
+  padding: 3em 1em;
+  background-color: #213d4d;
+  color: white;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (min-width: 860px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.footer__logos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0.5rem 0;
+
+  @media screen and (min-width: 860px) {
+    flex: 1 0 auto;
+  }
+}
+
+.footer__logo-wrapper {
+  margin: 1rem;
+}
+
+.footer__logo.image {
+  height: 3rem;
+}
+
+.footer__about {
+  margin: 0.5rem 0;
+
+  @media screen and (min-width: 860px) {
+    flex: 0 1 50%;
+  }
+}
+
+.footer__text {
+  margin: 0;
+  font-weight: 300;
+}
+
+.footer__link {
+  color: #e9c23a;
+  font-weight: 400;
+  text-decoration: none;
+
+  &:hover {
+    color: darken(#e9c23a, 20%);
+  }
+}
