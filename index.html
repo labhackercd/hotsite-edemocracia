@@ -3,6 +3,18 @@ layout: default
 ---
 
 <div class="content">
+  <div class="main-banner">
+    <div class="site-logo-wrapper">
+      <img class="site-logo" src="{{site.baseurl}}/assets/images/logo-site.png" alt="Dois personagens estilizados ao lado um do outro, um mais novo e um mais velho." >
+    </div>
+    <div class="main-banner__content">
+      <img class="main-banner__title" src="{{site.baseurl}}/assets/images/titulo.png" alt="Reforma da Previdência"></img>
+      <p class="main-banner__text">
+        A Reforma da Previdência é um tema importante para todos os brasileiros. Por isso, o portal e-Democracia reuniu aqui todas as ferramentas em que a matéria está sendo discutida, para que você não perca nenhuma oportunidade de dar a sua opinião. Participe!
+      </p>
+    </div>
+  </div>
+
   {% for banner in site.data.data  %}
     <div class="banner-wrapper {{ banner.class }}">
       <div class="banner-container">

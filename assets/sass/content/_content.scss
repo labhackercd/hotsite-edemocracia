@@ -4,6 +4,46 @@
   margin: 0.5em 0;
 }
 
+.main-banner {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 1em;
+  background-color: #ffd853;
+}
+
+.main-banner__text {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #474747;
+  max-width: 34em;
+  margin: 0;
+}
+
+.main-banner__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-banner__title {
+  max-width: 100%;
+  margin-bottom: 1em;
+}
+
+.site-logo {
+  max-width: 100%;
+  height: auto;
+  padding: 0 2em;
+  margin-bottom: 1em;
+}
+
+.site-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .banner-container {
   margin: 0.5em 0;
   @include bannerVariable('background-color', 'banner-bg-color');
