@@ -10,7 +10,9 @@ layout: default
           <div class="banner__content">
             <h2 class="banner__title">{{ banner.title }}</h2>
             <p class="banner__text">{{ banner.text }}</p>
-            <a href="{{ banner.link_url }}" class="banner__link">{{ banner.link_text }} <i class="banner__link-icon fa fa-chevron-right"></i></a>
+            {% for link in banner.links %}
+              <a href="{{ link.link_url }}" class="banner__link">{{ link.link_text }} <i class="banner__link-icon fa fa-chevron-right"></i></a>
+            {% endfor %}
           </div>
           <div class="banner__image-wrapper">
             <img src="{{site.baseurl}}/assets/images/{{ banner.image_name }}" class="banner__image"></img>

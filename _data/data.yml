@@ -1,27 +1,27 @@
 - class: expressao
   title: Faça uma pergunta
   text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, repudiandae.
-  link_text: Participe aqui!
-  link_url: http://www.pudim.com.br
   image_name: logo-expressao.svg
+  links:
+    - link_text: Nome do topico
+      link_url: http://www.pudim.com.br
+    - link_text: Outro tópico no expressao
+      link_url: http://www.pudim.com.br
 
 - class: faq
   title: Tire suas dúvidas
   text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, repudiandae.
-  link_text: Veja as perguntas frequentes
-  link_url: http://labhackercd.github.io/faq-previdencia
   image_name: logo-faq.png
+  links:
+    - link_text: Veja as perguntas frequentes
+      link_url: http://www.pudim.com.br
+    - link_text: Simule a sua aposentadoria
+      link_url: http://www.pudim.com.br
 
 - class: wikilegis
   title: Opine no Projeto de Lei
   text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, repudiandae.
-  link_text: Fazer sugestões
-  link_url: http://www.pudim.com.br
   image_name: logo-wikilegis.svg
-
-- class: calculator
-  title: Simule sua aposentadoria
-  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, repudiandae.
-  link_text: Fazer simulação
-  link_url: http://www.pudim.com.br
-  image_name: calculadora.png
+  links:
+    - link_text: Fazer sugestões
+      link_url: http://www.pudim.com.br
