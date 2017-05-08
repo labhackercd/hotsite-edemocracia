@@ -1,14 +1,14 @@
 - class: expressao
   title: Fale com o Relator
-  text: Descreva no fórum a sua situação pessoal para que o Relator da Reforma da Previdência, Dep. Arthur Oliveira Maia (PPS/BA) possa explicar para você como as novas regras se aplicarão ao seu caso.
+  text: Neste canal, você pode debater o tema e fazer perguntas sobre a Reforma da Previdência. O relator da proposta, Arthur Oliveira Maia (PPS-BA), com sua equipe, vai responder dúvidas e explicar como a reforma vai afetar diretamente a sua vida.
   image_name: logo-expressao.svg
   links:
-    - link_text: Participe no dia 8/5, às 15h. As 100 primeiras postagens serão respondidas pelo Relator da Reforma da Previdência.
+    - link_text: Participe aqui!
       link_url: \#
 
 - class: faq
   title: Tire suas dúvidas
-  text: Reunimos aqui as respostas para as dúvidas mais comuns a respeito da Reforma da Previdência. Navegue pelos temas e fique por dentro das principais alterações propostas
+  text: Antes de colocar sua dúvida, navegue aqui pelos temas mais consultados e fique por dentro das principais alterações propostas na Reforma da Previdência
   image_name: logo-faq.png
   links:
     - link_text: Perguntas e Respostas
@@ -30,10 +30,8 @@
 - class: wikilegis
   title: Sugira mudanças na PEC 287/2016
   text: >
-    No portal e-Democracia você pode utilizar o Wikilegis para sugerir redações alternativas aos artigos das proposições legislativas. Confira as principais sugestões apresentadas à PEC 287/2016 - Reforma da Previdência:
+    Veja as sugestões dadas na Reforma da Previdência.
   image_name: logo-wikilegis.svg
   links:
-    - link_text: Wikilegis - PEC 287/2016 - texto aprovado na Comissão Especial (aberto para participação)
-      link_url: \#
-    - link_text: Wikilegis - PEC 287/2016 - relatório apresentado em 05/05/20017 (encerrado para participação)
+    - link_text: PEC 287/2016 (Reforma da Previdência) - relatório apresentado em 05/05/2017
       link_url: \#
