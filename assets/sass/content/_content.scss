@@ -80,6 +80,12 @@
   align-items: center;
 }
 
+.banner-wrapper {
+  &:first-child {
+    font-size: 1.3em;
+  }
+}
+
 .banner-container {
   margin-top: 1em;
   @include bannerVariable('background-color', 'banner-bg-color');
