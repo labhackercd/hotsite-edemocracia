@@ -22,24 +22,26 @@ layout: default
     </div>
   </div>
 
-  {% for banner in site.data.data  %}
-    <div class="banner-wrapper {{ banner.class }}">
-      <div class="banner-container">
-        <div class="banner">
-          <div class="banner__content">
-            <h2 class="banner__title">{{ banner.title }}</h2>
-            <p class="banner__text">{{ banner.text }}</p>
-            {% for link in banner.links %}
-              <a href="{{ link.link_url }}" class="banner__link">{{ link.link_text }} <i class="banner__link-icon fa fa-chevron-right"></i></a>
-            {% endfor %}
-          </div>
-          <div class="banner__image-wrapper">
-            <img src="{{site.baseurl}}/assets/images/{{ banner.image_name }}" class="banner__image"></img>
+  <div class="content-banners">
+    {% for banner in site.data.data  %}
+      <div class="banner-wrapper {{ banner.class }}">
+        <div class="banner-container">
+          <div class="banner">
+            <div class="banner__content">
+              <h2 class="banner__title">{{ banner.title }}</h2>
+              <p class="banner__text">{{ banner.text }}</p>
+              {% for link in banner.links %}
+                <a href="{{ link.link_url }}" class="banner__link">{{ link.link_text }} <i class="banner__link-icon fa fa-chevron-right"></i></a>
+              {% endfor %}
+            </div>
+            <div class="banner__image-wrapper">
+              <img src="{{site.baseurl}}/assets/images/{{ banner.image_name }}" class="banner__image"></img>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 
   <footer class="footer">
     <div class="footer__container">

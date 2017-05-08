@@ -81,7 +81,7 @@
 }
 
 .banner-wrapper {
-  &:first-child {
+  &:first-of-type {
     font-size: 1.3em;
   }
 }
