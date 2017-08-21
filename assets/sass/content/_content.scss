@@ -33,13 +33,13 @@
   align-items: center;
   flex-direction: column;
   padding: 2em 1em;
-  background-color: #ffd853;
-  background: radial-gradient(circle at left 50% top 30%, #ffdc70 50%, #ffd853 0);
+  background-color: #75c5f0;
+  background: radial-gradient(circle at left 50% top 30%, hsla(201, 80%, 80%, 1) 50%, hsla(201, 80%, 77%, 1) 0);
 
   @media screen and (min-width: 860px) {
     flex-direction: row;
-    background-color: #ffd853;
-    background: radial-gradient(circle at left 30vw top 50%, #ffdc70 35%, #ffd853 0);
+    background-color: #75c5f0;
+    background: radial-gradient(circle at left 30vw top 50%, hsla(201, 80%, 80%, 1) 35%, hsla(201, 80%, 77%, 1) 0);
   }
 }
 
@@ -80,10 +80,8 @@
   align-items: center;
 }
 
-.banner-wrapper {
-  &:first-of-type {
-    font-size: 1.3em;
-  }
+.content-banners {
+  padding-bottom: 1rem;
 }
 
 .banner-container {

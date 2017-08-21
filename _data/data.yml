@@ -1,37 +1,31 @@
 - class: expressao
-  title: Fale com o Relator
-  text: Neste canal, você pode debater o tema e fazer perguntas sobre a Reforma da Previdência. O relator da proposta, Arthur Oliveira Maia (PPS-BA), com sua equipe, vai responder dúvidas e explicar como a reforma vai afetar diretamente a sua vida.
+  title: DIGA O QUE VOCÊ PENSA
+  text: Criamos quatro fóruns de discussão, nos quais você poderá apresentar a sua opinião sobre cada aspecto do tema.
   image_name: logo-expressao.svg
   links:
-    - link_text: Participe aqui!
-      link_url: \#
-
-- class: faq
-  title: Tire suas dúvidas
-  text: Antes de colocar sua dúvida, navegue aqui pelos temas mais consultados e fique por dentro das principais alterações propostas na Reforma da Previdência
-  image_name: logo-faq.png
-  links:
-    - link_text: Perguntas e Respostas
-      link_url: /previdencia/faq/
-    - link_text: Calcule a sua aposentadoria
-      link_url: \#
+    - link_text: Desenvolvimento de aplicativos para os estudantes
+      link_url: /expressao/t/desenvolvimento-de-aplicativos-para-os-estudantes/44882
+    - link_text: Transparência no financiamento estudantil
+      link_url: /expressao/t/transparencia-no-financiamento-estudantil/44881
+    - link_text: Melhoria de acesso ao sistema SISFIES
+      link_url: /expressao/t/melhorias-de-acesso-ao-sistema-sisfies/44880
+    - link_text: Alternativas de financiamento estudantil
+      link_url: /expressao/t/alternativas-de-financiamento-estudantil/44879
 
 - class: audiencias
-  title: Opiniões e Debates
+  title: PERGUNTE AO VIVO
   text: >
-    A Câmara dos Deputados realiza audiências públicas com especialistas para instruir o debate sobre os mais importantes temas nacionais. Confira a seguir o que foi discutido sobre a Reforma da Previdência:
+    A Comissão Mista que discute a MPV 785/2017 realizará uma série de Audiências Públicas para instruir a matéria. Você pode participar enviando perguntas em tempo real aos convidados!
   image_name: logo-audiencias.svg
   links:
-    - link_text: Discussão do Regime Próprio dos Servidores Públicos com representantes da ANFIP, DIEESE, OAB e Sindicatos
-      link_url: \#
-    - link_text: Propostas de mudanças no Benefício de Prestação Continuada (BPC), especialmente para idosos e pessoas com deficiência.
-      link_url: \#
+    - link_text: Audiência Pública da Comissão Mista que analisa Medida Provisória sobre mudanças no Fies.
+      link_url: /audiencias/sala/363
 
 - class: wikilegis
-  title: Sugestões na PEC 287/2016
+  title: SUGIRA ALTERAÇÕES
   text: >
-    Veja as sugestões dadas na Reforma da Previdência.
+    O texto da MPV 785/2017 está em consulta pública no Wikilegis, ferramenta por meio da qual você poderá analisar artigo por artigo e sugerir modificações no texto.
   image_name: logo-wikilegis.svg
   links:
-    - link_text: PEC 287/2016 (Reforma da Previdência) - relatório apresentado em 05/05/2017
-      link_url: \#
+    - link_text: FIES - MPV 785/2017
+      link_url: /wikilegis/bill/79
