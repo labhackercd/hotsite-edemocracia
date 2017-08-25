@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/fies/sitemap.xml
+Sitemap: /fies/sitemap.xml

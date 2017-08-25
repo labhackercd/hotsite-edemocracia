@@ -8,6 +8,7 @@
 # Site settings
 title: e-Democracia - FIES
 baseurl: /fies
+analyticsId: UA-70690943-3
 
 # Markdown settings
 markdown: kramdown
