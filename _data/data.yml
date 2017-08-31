@@ -20,8 +20,8 @@
     A Comissão Mista que discute a MPV 785/2017 realizará uma série de Audiências Públicas para instruir a matéria. Você pode participar enviando perguntas em tempo real aos convidados!
   image_name: logo-audiencias.svg
   links:
-    - link_text: VideoChat com o deputado Alex Canziani, relator da MPV 785/2017.(31/08/2017)
-      link_url: /audiencias/sala/378
+    # - link_text: VideoChat com o deputado Alex Canziani, relator da MPV 785/2017.(31/08/2017)
+    #   link_url: /audiencias/sala/378
     - link_text: Audiência Pública para debater a MPV 785/2017.(30/08/2017)
       link_url: /audiencias/sala/389
     - link_text: Audiência Pública da Comissão Mista que analisa Medida Provisória sobre mudanças no Fies.(23/08/2017)
